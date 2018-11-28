@@ -27,14 +27,12 @@ gem 'therubyracer', platforms: :ruby
 
 gem 'active_decorator'
 gem 'html5_validators'
-gem 'rails-flog'
-gem 'whenever', require: false
+
 gem 'newrelic_rpm'
   #ページネーションの追加、一覧を複数個に分ける
 gem 'kaminari'
   #スクレイピングで特定要素取り出し
 gem 'nokogiri'
-gem 'seed-fu', '~> 2.3'
 
 
 group :development, :test do
@@ -43,7 +41,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'annotate'
   gem 'pry-rails'
-  
+  gem 'rails-flog'
   
   
   gem 'pry-coolline'
